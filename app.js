@@ -77,4 +77,12 @@ db.ref("messages").on("child_added", (snapshot) => {
 
   messagesDiv.scrollTop = messagesDiv.scrollHeight;
 
-});
+});const firebaseConfig = {
+  apiKey: "...",
+  authDomain: "...",
+  databaseURL: "...",
+  projectId: "...",
+  storageBucket: "...",
+  messagingSenderId: "...",
+  appId: "..."
+};
